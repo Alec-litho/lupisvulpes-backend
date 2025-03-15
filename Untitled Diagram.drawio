@@ -31,6 +31,12 @@
         <mxCell id="HthpFhxTG9hvTSC9DSsg-11" value="POSTGRE&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SQL&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="260" y="160" width="120" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="HthpFhxTG9hvTSC9DSsg-12" value="google drive" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HthpFhxTG9hvTSC9DSsg-13" value="img bb" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="150" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
