@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Art {
+  year              String
+  race              String
+  characters        String
+  show              String
+  art_type          String
+  fandom            String
+  link              String
+  is_animation_clip Boolean
+  is_plushie        Boolean
+  is_commission     Boolean
+  colors_ids        String
+  color_id          String
+  id                String   @id @default(uuid())
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}
